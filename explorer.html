@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Search and compare spacecraft and instruments left on the Moon, Mars and beyond."><title>Mission Explorer | Still Out There</title><link rel="stylesheet" href="space.css"><script src="explorer.js" defer></script></head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">S</span><span>Still Out There<small>A guide to space exploration</small></span></a><nav class="site-nav" aria-label="Main navigation"><a href="moon.html">The Moon</a><a href="mars.html">Mars</a><a href="deep-space.html">Deep space</a><a href="explorer.html" aria-current="page">Mission explorer</a><a href="sources.html">Sources</a></nav></header>
+<main id="main">
+  <header class="page-hero"><p class="eyebrow">Search, filter and compare</p><h1>Mission explorer</h1><p>Browse missions by destination or what happened to them. Search for a spacecraft, an instrument, a place or a discovery. The list is ordered by launch or landing year.</p></header>
+  <section class="content-section" aria-labelledby="browse-title"><p class="section-label">Mission directory</p><h2 id="browse-title">Find a mission</h2>
+    <div class="filters">
+      <div class="filter-field"><label for="mission-search">Search missions</label><input id="mission-search" type="search" placeholder="Try “seismometer” or “Titan”"></div>
+      <div class="filter-field"><label for="destination-filter">Destination</label><select id="destination-filter"><option value="all">All destinations</option><option value="Moon">Moon</option><option value="Mars">Mars</option><option value="Deep space">Deep space</option></select></div>
+      <div class="filter-field"><label for="status-filter">Mission status</label><select id="status-filter"><option value="all">All statuses</option><option value="active">Operating / still communicating</option><option value="passive">Passive science</option><option value="ended">Mission ended / silent</option><option value="disposed">Deliberately disposed</option></select></div>
+    </div>
+    <p class="results-line" id="results-count" aria-live="polite"></p>
+    <div class="explorer-grid" id="mission-results"></div>
+  </section>
+  <section class="quiz-panel" aria-labelledby="quiz-title">
+    <p class="eyebrow">Knowledge check</p><h2 id="quiz-title">Test your space-mission knowledge</h2>
+    <p class="quiz-question" id="quiz-question" aria-live="polite"></p>
+    <div class="quiz-answers" id="quiz-answers"></div>
+    <p class="quiz-feedback" id="quiz-feedback" role="status" aria-live="polite"></p>
+    <button class="plain-button" id="quiz-restart" type="button" hidden>Start again</button>
+  </section>
+  <section class="content-section"><div class="callout"><strong>How to read the statuses</strong><p><b>Operating:</b> the mission is still carrying out observations or communicating. <b>Passive science:</b> an object can support measurements without power. <b>Ended / silent:</b> the spacecraft no longer operates or communicates. <b>Disposed:</b> mission controllers deliberately ended the spacecraft at a planned destination.</p></div></section>
+</main>
+<footer class="site-footer"><span>Still Out There · Student space exploration guide</span><span><a href="sources.html">Sources and further reading</a></span></footer>
+</body>
+</html>
