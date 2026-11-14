@@ -2,7 +2,7 @@
 
 An interactive web application cataloging human-made spacecraft, rovers, and scientific instruments left on the Moon, Mars, and in deep space.
 
-**Live Deployment:** [https://github.io](https://github.io)
+**Live Deployment:** [https://darkcompiler-coder.github.io/mission-explorer/explorer.html](https://github.io)
 
 ---
 
